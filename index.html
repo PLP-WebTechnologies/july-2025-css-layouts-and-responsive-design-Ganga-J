@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Responsive Web Layout</h1>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h2>Content Section (Flexbox)</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>This is a flex item. The cards are laid out in a flexible row and wrap when the screen gets too small.</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>Flexbox is ideal for single-dimensional layouts like a row of cards, a navigation menu, or form elements.</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>This card demonstrates how items can grow or shrink to fit the available space within their container.</p>
+            </div>
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>With `flex-wrap`, these cards will automatically stack on smaller screens, which is a key part of responsive design.</p>
+            </div>
+        </div>
+    </main>
+
+    <aside class="sidebar">
+        <h2>Sidebar (Grid Item)</h2>
+        <p>This sidebar is part of the main CSS Grid layout. It is positioned next to the main content on desktop and tablet screens.</p>
+        <p>The entire page structure, including this sidebar, is controlled by the `display: grid` property on the `body` element.</p>
+    </aside>
+
+    <footer class="page-footer">
+        <p>&copy; 2024 Responsive Layout Assignment. PLP hackathon</p>
+    </footer>
+
+</body>
+</html>
